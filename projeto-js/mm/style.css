@@ -1,0 +1,22 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    margin: 10px;
+    background-color: #39036b;
+    color: white;
+    box-shadow: 4px 4px#140324;
+}
+
+p {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

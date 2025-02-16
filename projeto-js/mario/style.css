@@ -1,0 +1,14 @@
+body {
+    background-image: url(fundo.png);
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position-y: 200px;
+    overflow: hidden;
+    color: black;
+    font-family: fantasy;
+}
+
+#dino {
+    width: 50px;
+}

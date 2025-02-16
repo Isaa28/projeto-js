@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden
+}
+
+#botaos {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(6, 107, 240);
+    border-color: rgb(50, 138, 253);
+    border-radius: 500px;
+    box-shadow: 10px 10px rgb(6, 80, 175);
+    margin: 325px;
+}
+
+#botaomudança {
+    display: flex;
+    align-self: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#botaol {
+    width: 200px;
+    height: 200px;
+    background-color: #0f014b;
+    border-color: #0f014b;
+    border-radius: 500px;
+    box-shadow: 10px 10px rgb(0, 1, 26);
+}

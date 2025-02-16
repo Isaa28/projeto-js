@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4848c9;
+    width: 400px;
+    height: 500px;
+    border: 20px solid #4848c9;
+    border-radius: 30px;
+    box-shadow: 30px 40px rgb(177, 163, 163) ;
+
+
+}
+#sel{
+    margin-bottom: 20px;
+}
+
+#ft{
+    margin: 20px;
+    width: 220px;
+    height: 200px;
+    border-radius: 300px;
+}

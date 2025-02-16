@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seus dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="caixa">
+
+        <h3>Ano de nascimento:</h3>
+        <input type="number" id="data" min="0">
+        <h3>Sexo:</h3>
+
+        <div id="sel">
+
+            <input type="radio" name="sex" id="fem" checked>
+            <label for="fem">Feminino</label>
+            <input type="radio" name="sex" id="mas">
+            <label for="mas">Masculino</label>
+
+        </div>
+
+        <button onclick="executar()">ENVIAR</button>
+
+        <p id="tex"></p>
+        <img src="semp.jpg" alt="Pessoa" id="ft">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
